@@ -21,7 +21,7 @@ def main(
     output: str = os.path.join(CURRENT_DIR, "..", "..", "images", "outputs", "output.mp4"),
     model_id: str = "KBlueLeaf/kohaku-v2.1",
     lora_dict: Optional[Dict[str, float]] = None,
-    prompt: str = "1girl with brown dog ears, thick frame glasses",
+    prompt: str = "Vintage sci-fi horror scene depicting astronauts exploring a mysterious, fog-shrouded planet with eerie, alien vegetation and unknown creatures lurking in the shadows, capturing the suspense and fear of the unknown.",
     scale: float = 1.0,
     acceleration: Literal["none", "xformers", "tensorrt"] = "xformers",
     use_denoising_batch: bool = True,
