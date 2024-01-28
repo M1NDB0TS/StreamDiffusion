@@ -212,7 +212,7 @@ def image_generation_process(
 def main(
     model_id_or_path: str = "KBlueLeaf/kohaku-v2.1",
     lora_dict: Optional[Dict[str, float]] = None,
-    prompt: str = "1girl with brown dog hair, thick glasses, smiling",
+    prompt: str = "steampunk helmet fantasy art mask robot ninja stylized digital illustration sharp focus, elegant intricate digital painting artstation concept art global illumination ray tracing advanced technology chaykin howard and campionpascale and cooke darwyn and davis jack ",
     negative_prompt: str = "low quality, bad quality, blurry, low resolution",
     frame_buffer_size: int = 1,
     width: int = 512,
